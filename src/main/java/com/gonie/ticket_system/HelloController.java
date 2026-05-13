@@ -1,4 +1,4 @@
-package com.gonie.titket_system;
+package com.gonie.ticket_system;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 

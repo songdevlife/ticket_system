@@ -1,4 +1,4 @@
-package com.gonie.titket_system.dto;
+package com.gonie.ticket_system.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Min;

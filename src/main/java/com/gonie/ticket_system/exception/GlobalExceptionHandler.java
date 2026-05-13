@@ -1,4 +1,4 @@
-package com.gonie.titket_system.exception;
+package com.gonie.ticket_system.exception;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gonie</groupId>
-	<artifactId>titket_system</artifactId>
+	<artifactId>ticket_system</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>titket_system</name>
+	<name>ticket_system</name>
 	<description/>
 	<url/>
 	<licenses>

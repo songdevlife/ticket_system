@@ -1,11 +1,11 @@
-package com.gonie.titket_system.controller;
-
-import com.gonie.titket_system.dto.TestRequest;
-import com.gonie.titket_system.dto.TestResponse;
+package com.gonie.ticket_system.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.gonie.ticket_system.dto.TestRequest;
+import com.gonie.ticket_system.dto.TestResponse;
 
 import jakarta.validation.Valid;
 
