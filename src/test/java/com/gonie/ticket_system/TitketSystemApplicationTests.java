@@ -1,4 +1,4 @@
-package com.gonie.titket_system;
+package com.gonie.ticket_system;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
