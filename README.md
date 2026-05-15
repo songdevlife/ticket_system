@@ -14,18 +14,25 @@ This project is created to learn backend development step by step using:
 - JSON Request/Response
 - Validation
 - Exception Handling
+- Database integration
 
 ## Current Features
 
-- Basic REST API
-- DTO Request/Response handling
-- JSON response
+- Spring Boot application setup
+- Embedded Tomcat server
+- REST Controller
+- JSON Request / Response
+- DTO handling
 - Request validation
 - Global exception handling
+
+### Ticket System Features
 - Ticket Entity
 - Spring Data JPA Repository
-- Create Ticket API (POST /tickets)
-- MySQL database connection
+- Create Ticket API
+    POST /tickets
+- Get All Tickets API
+    GET /tickets
 
 ## Tech Stack
 
@@ -37,6 +44,8 @@ This project is created to learn backend development step by step using:
 - Maven
 - Postman
 - Git & GitHub
+
+Database integration coming soon
 
 ## Database Setup
 CREATE DATABASE ticket_system;
