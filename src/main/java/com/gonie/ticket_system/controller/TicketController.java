@@ -1,5 +1,7 @@
 package com.gonie.ticket_system.controller;
 
+import java.util.List;
+
 import com.gonie.ticket_system.entity.Ticket;
 import com.gonie.ticket_system.repository.TicketRepository;
 import org.springframework.web.bind.annotation.*;
@@ -22,4 +24,9 @@ public class TicketController {
         return ticketRepository.save(ticket);
     }
     
+    @GetMapping
+    public List<Ticket> getTickets()
+    {
+        return ticketRepository.findAll();
+    }
 }
