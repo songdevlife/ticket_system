@@ -29,4 +29,16 @@ public class TicketController {
     {
         return ticketRepository.findAll();
     }
+
+    @PutMapping("/tickets/{id}")
+    public Ticket updateTicket(
+        @PathVariable Long id,
+        @RequestBody Ticket request
+    ){
+        
+        Ticket ticket = ticketRepository.findById(id).orElseThrow();
+        ticket.setTitle(request.getTitle());
+
+        return ticketRepository.save(ticket);
+    }
 }
