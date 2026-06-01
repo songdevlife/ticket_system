@@ -41,4 +41,13 @@ public class TicketController {
 
         return ticketRepository.save(ticket);
     }
+
+    @DeleteMapping("/tickets/{id}")
+    public String deleteTicket(@PathVariable Long id)
+    {
+        Ticket ticket = ticketRepository.findById(id).orElseThrow();
+        
+        ticketRepository.delete(ticket);
+        return "Ticket deleted successfully";
+    }
 }
